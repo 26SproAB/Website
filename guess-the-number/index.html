@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Guess the Number</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css>
+    <link rel="preconnect" href=https://fonts.googleapis.com>
+    <link rel="preconnect" href=https://fonts.gstatic.com crossorigin>
+    <link href=https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="section has-background-light">
+        <div class="container">
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <div class="title">Number Guesser</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section has-text-centered">
+        <div class="container">
+            <div class="columns has-text-centered">
+                <div class="column is-4">
+                    <div class="field has-addons">
+                        <div class="control">
+                            <input class="input" type="text" id="input-text" placeholder="Type here">
+                        </div>
+                        <div class="control">
+                            <button class="button is-info" id="submit-button">Submit</button>
+                        </div>
+                        <div class="control">
+                            <button class="button is-danger" id="retry-button">Retry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+                    <div class="title is-size-5">Welcome to the number guesser! you have 10 attempts to guess the number 1 - 100. you will get hints if its higher or lower than your guessed number!</div>
+                </div>
+                <div class="column is-4">
+                    <div class="title is-size-5" id="result-text"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <progress class="progress" value="0" max="10" id="progress-bar"></progress>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
