@@ -1,0 +1,35 @@
+
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.code-background{
+    background-image: url(css_code.jpg);
+    background-size: 100vw;
+    background-color: #1d72aa;
+}
+
+.project-div{
+    height: 200px;
+    width: 200px;
+    background-color: limegreen;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
