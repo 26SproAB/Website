@@ -1,3 +1,5 @@
+const logo = document.querySelector("#navbar-logo);
+
 const rollButton = document.querySelector("#roll-button");
 const die1 = document.querySelector("#dice-one");
 const die2 = document.querySelector("#dice-two");
@@ -17,4 +19,10 @@ function changeDieFace() {
   die2.src = dieRoll2() + ".png";
 }
 
+function returnHome(){
+    window.location.replace("https://26sproab.github.io/Website");
+}
+
 rollButton.onclick = changeDieFace;
+
+logo.onclick = returnHome;
