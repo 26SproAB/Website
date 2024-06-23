@@ -1,3 +1,5 @@
+const logo = document.querySelector("#navbar-logo);
+
 let upOrDown = document.querySelector("#result-text");
 let progressBar = document.querySelector("#progress-bar");
 let inputText = document.querySelector("#input-text")
@@ -53,5 +55,11 @@ function retry() {
   hasWon = false;
 }
 
+function returnHome(){
+    window.location.replace("https://26sproab.github.io/Website");
+}
+
 retryButton.onclick = retry;
 submitButton.onclick = checkNum;
+
+logo.onclick = returnHome;
