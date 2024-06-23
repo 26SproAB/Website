@@ -17,8 +17,6 @@ function setRanNum() {
 
 setRanNum();
 
-console.log(`number is ${Num}`);
-
 function checkNum() {
   let inputVal = parseInt(inputText.value);
   progressBar.value++;
