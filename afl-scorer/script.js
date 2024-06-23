@@ -1,3 +1,5 @@
+const logo = document.querySelector("#navbar-logo");
+
 const teamAPoint = document.querySelector('#team-a-point');
 const teamAGoal = document.querySelector('#team-a-goal');
 
@@ -73,6 +75,10 @@ function resetAll(){
     lastScoreB = 0;
 }
 
+function returnHome(){
+    window.location.replace("https://26sproab.github.io/Website");
+}
+
 setTeamNames();
 
 teamAGoal.onclick = addAGoal;
@@ -85,4 +91,6 @@ undoAButton.onclick = undoLastA;
 undoBButton.onclick = undoLastB;
 
 resetButton.onclick = resetAll;
+
+logo.onclick = returnHome;
 
