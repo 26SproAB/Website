@@ -1,4 +1,4 @@
-const logo = document.querySelector("#navbar-logo);
+const logo = document.querySelector("#navbar-logo");
 
 let upOrDown = document.querySelector("#result-text");
 let progressBar = document.querySelector("#progress-bar");
